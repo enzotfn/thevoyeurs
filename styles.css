@@ -1,0 +1,104 @@
+body {
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin-top: 15px;
+    text-align: center;
+    color: #FFF;
+
+    & a {
+        font-size: 76px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #FFF;
+    }
+
+    & h2 {
+        font-size: 28px;
+        margin: 15px 0 0 0;
+    }
+
+    & h3 {
+        font-size: 22px;
+        margin: 10px 0 0 0;
+    }
+}
+
+.boutons {
+    margin-top: 30px;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+
+    & button {
+        height: 30px;
+        width: 150px;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
+
+.homepage {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.cam {
+    width: 480px;
+    height: 270px;
+    background-color: #00FF00;
+    border: 3px solid #D9D9D9;
+    cursor: pointer;
+}
+
+.main {
+    width: 960px;
+    height: 540px;
+    border: 3px solid #D9D9D9;
+    background-color: #00FF00;
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.minia {
+    height: 180px;
+    width: 320px;
+    border: 3px solid #D9D9D9;
+    background-color: #00FF00;
+}
+
+.miniat {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: auto;
+}
+
+.videopage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+    & .boutons {
+        width: 100%;
+    }
+}
+
+.video {
+    display: flex;
+    gap: 30px;
+}
